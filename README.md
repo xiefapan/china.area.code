@@ -2,7 +2,7 @@
 ---------
 
 
-[中华人民共和国民政部门门户网站](http://www.mca.gov.cn/article/sj/xzqh/2019/)
+[中华人民共和国民政部门户网站](http://www.mca.gov.cn/article/sj/xzqh/2019/)
 
 已更新至2019年11月
 
