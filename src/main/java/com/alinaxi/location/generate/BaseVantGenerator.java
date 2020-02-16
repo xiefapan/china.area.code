@@ -37,7 +37,7 @@ public class BaseVantGenerator
     {
         StringBuilder builder = new StringBuilder();
 
-        builder.append("  province_list: {\n\t");
+        builder.append("  province_list: {\n");
 
         for (Area province : provinceList)
         {
