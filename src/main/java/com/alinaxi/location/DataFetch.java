@@ -20,7 +20,7 @@ import java.util.List;
 public class DataFetch
 {
     //民政部地区数据网址，会定期更新
-    private final static String url = "http://www.mca.gov.cn/article/sj/xzqh/2019/2019/201912251506.html";
+    private final static String url = "http://www.mca.gov.cn///article/sj/xzqh/2020/2020/2020072805001.html";
 
     private AreaModel areaModel = new AreaModel();
 
@@ -66,7 +66,7 @@ public class DataFetch
 
     private void processProvinceAndCityElements(Document doc)
     {
-        Elements elementsProAndCity = doc.getElementsByClass("xl7028029");
+        Elements elementsProAndCity = doc.getElementsByClass("xl728204");
         List<String> eachTextList = elementsProAndCity.eachText();
         for (int i = 0; i < eachTextList.size(); i = i + 2)
         {
@@ -105,7 +105,7 @@ public class DataFetch
     private void processCountyElements(Document doc)
     {
         //区县
-        Elements countyElements = doc.getElementsByClass("xl7128029");
+        Elements countyElements = doc.getElementsByClass("xl738204");
         List<String> eachTextList = countyElements.eachText();
         for (int i = 0; i < eachTextList.size(); i = i + 2)
         {

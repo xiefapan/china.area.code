@@ -19,7 +19,7 @@ import java.util.List;
 public class Main
 {
 
-    private static String basePath = "E:\\dev\\personal\\china_area_code\\data";
+    private static String basePath = "E:\\file\\china_area_code\\data";
     private final static AreaModel areaModel = new AreaModel();
 
 
